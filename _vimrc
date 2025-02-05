@@ -2,7 +2,13 @@
 "	you need to use the '+ register'
 
 vnoremap <C-c> "+y
-map <C-v> "+p
+#map <C-v> "+p
+map <C-v> "+P  
+"paste beforehand
+
+
+"  For Unix
+"vnoremap <C-c> "+y :let @+=@*<CR>
 
 "  For Windows
 cd $USERPROFILE\Desktop
