@@ -24,6 +24,7 @@ set nowrap
 " filetypes and syntax
 syntax on
 filetype on
+set noswapfile
 
 " tab size
 set tabstop=4
