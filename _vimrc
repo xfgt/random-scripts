@@ -14,7 +14,6 @@ map <C-v> "+P
 cd $USERPROFILE\Desktop
 set belloff=all
 
-" editor style
 set number
 
 " set cursorline
