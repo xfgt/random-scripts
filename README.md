@@ -1,16 +1,8 @@
 
 # My Random scripts
 
-<img  src="./tux-penguin-typing.gif" id="tux"/>
-<style>
+<img  src="./images/tux-penguin-typing.gif" id="tux"/>
 
-    #tux{
-        
-        margin=50%;
-
-    }
-
-</style>
 
 
 A place where I store my short scripts for different tasks. 
