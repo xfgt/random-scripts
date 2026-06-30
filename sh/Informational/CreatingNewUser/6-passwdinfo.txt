@@ -1,0 +1,21 @@
+
+sudo passwd -S Tedi
+
+
+ -S, --status
+           Display account status information. The status information consists
+           of 7 fields. The first field is the user's login name. The second
+           field indicates if the user account has a locked password (L), has
+           no password (NP), or has a usable password (P). The third field
+           gives the date of the last password change. The next four fields
+           are the minimum age, maximum age, warning period, and inactivity
+           period for the password. These ages are expressed in days.
+
+
+
+name, (L, NP, P), last change, min_age, max_age, warrning period, inactivity period (days)
+
+Tedi P 06/29/2026 0 99999 7 -1
+
+Tedi 	P 			06/29/2026 	0			 99999 		7 				-1
+beast P 02/04/2025 0 99999 7 -1

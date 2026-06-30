@@ -1,0 +1,9 @@
+138  2026-06-29 22:12:22 sudo useradd -m -s /bin/bash -G sudo jeff
+
+
+sudo useradd -m username	Create a user and home directory
+sudo useradd -m -s /bin/bash username	Create a user with a specific login shell
+sudo useradd -m -G sudo username	Create a user and add to supplementary group
+
+
+3 in 1 Nescafe

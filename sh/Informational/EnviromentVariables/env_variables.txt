@@ -1,0 +1,41 @@
+
+
+
+
+1. SHOW VARIABLES
+	printevn particularEnvVar
+	env 				- all user variables
+	cat /etc/enviroment - global enviroment variables
+
+
+
+
+2. TEMPORARY VARIABLES (session only);	
+	- enviroment variables that dissapear when session is terminated;
+	
+	
+export SOMEVARIABLE="asdf"
+echo $SOMEVARIABLE
+printevn SOMEVARIABLE
+
+
+3. PERSISTENT VARIABLES
+
+	3.1. BASH CONFIG FILE
+		edit ~/.bashrc -> export vairable=1
+		source ~/.bashrc
+	"It is persistent because it sits in a file."
+
+
+	3.2 /etc/enviroment
+	edit /etc/enviroment
+	under PATH; export NAME=VALUE
+	source /etc/enviroment
+	ok
+
+4. REMOVING SESSION ONLY VARIABLES
+
+	unset VARIABLEnAME
+
+
+		

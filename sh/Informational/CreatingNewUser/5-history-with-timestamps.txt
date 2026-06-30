@@ -1,0 +1,6 @@
+vim .bashrc
+O
+a
+export HISTTIMEFORMAT="%F %T "
+
+
