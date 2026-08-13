@@ -1,0 +1,1 @@
+Added colors by just copying an existing .bashrc file to /home/tedi

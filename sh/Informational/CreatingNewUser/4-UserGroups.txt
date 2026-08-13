@@ -1,0 +1,19 @@
+Listing user groups:
+	groups <Username>
+
+Adding user to group:
+	sudo usermod -aG root Tedi
+
+
+Removing user from a group:
+	sudo deluser Tedi root
+
+
+
+Adding to sudoers:
+	su (switch user)
+	sudo usermod -aG sudo Tedi
+
+
+also:	sudo vim /etc/sudoers
+

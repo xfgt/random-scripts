@@ -1,0 +1,11 @@
+113  2026-06-29 22:06:18 sudo useradd jeff
+  114  2026-06-29 22:06:29 sudo passwd jeff
+  115  2026-06-29 22:06:44 sudo mkdir /home/jeff
+  117  2026-06-29 22:06:56 ls -la /home
+  118  2026-06-29 22:07:08 sudo chown jeff:jeff /home/jeff
+  119  2026-06-29 22:07:09 ls -la /home
+  120  2026-06-29 22:07:20 sudo usermod -s /bin/bash jeff
+  121  2026-06-29 22:07:31 sudo usermod -aG sudo jeff
+  123  2026-06-29 22:07:46 sudo cat /etc/passwd | grep jeff
+  124  2026-06-29 22:07:50 su jeff
+

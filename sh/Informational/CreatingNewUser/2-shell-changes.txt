@@ -1,0 +1,9 @@
+By default we had only '$' as a promt shell (/bin/sh)
+
+We had to change the default shell to Bash;
+chsh -s /bin/bash
+
+i.e. "change shell" 
+
+
+unlocked TAB autocomplete, but still no colors. ;c

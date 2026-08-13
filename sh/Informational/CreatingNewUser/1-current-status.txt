@@ -1,0 +1,27 @@
+sudo useradd Tedi
+cat /etc/passwd
+sudo passwd Tedi
+su Tedi
+
+
+
+sudo userdel -r Tedi
+cat /etc/passwd | grep Tedi
+sudo useradd -d /home/Tedi Tedi
+cat /etc/passwd
+mkdir /home/Tedi
+sudo mkdir /home/Tedi
+sudo chown Tedi:Tedi /home/Tedi
+sudo passwd Tedi
+su Tedi
+
+
+
+User Tedi created;
+
+- /home/Tedi empty
+- cant autocomplete
+- no colorful ls neither shell
+- no bash
+
+
