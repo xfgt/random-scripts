@@ -1,0 +1,14 @@
+
+Search text:
+/ <text>
+
+Replace text:
+Replacing Text in the Entire File
+To replace all instances of a specific term throughout the entire file, use the following command:
+:%s/<search_term>/<replacement_term>/g
+
+
+Confirming Each Replacement
+If you want to confirm each replacement before it is made, add the c flag:
+:%s/<search_term>/<replacement_term>/gc
+
