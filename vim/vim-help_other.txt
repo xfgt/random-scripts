@@ -12,3 +12,10 @@ Confirming Each Replacement
 If you want to confirm each replacement before it is made, add the c flag:
 :%s/<search_term>/<replacement_term>/gc
 
+
+
+delete inside parenthesis/braces only {} () []:
+delete: "Topic 1: Introduction"
+\begin{frame}{Topic 1: Introduction}
+di{
+
