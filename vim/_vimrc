@@ -14,7 +14,7 @@ map <C-v> "+P
 cd $USERPROFILE\Desktop
 set belloff=all
 
-set number
+" set number
 
 " set cursorline
 set guifont=Consolas:h12
@@ -32,6 +32,9 @@ set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
 set relativenumber
+
+"bulgarian keyboard Change with ctrl + 6 (^) [-- INSERT (PHO) ---]
+setlocal keymap=bulgarian-phonetic
 
 "BackupSwap
 "set backupdir=~/.vim/backup//
